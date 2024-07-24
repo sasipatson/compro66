@@ -1,0 +1,18 @@
+import random
+
+a = random.randint(1,10)
+print("ramdom value 1,10 =",a)
+a = random.randint(40,100)
+print("random value 40,100 =",a)
+print()
+b = random.random()
+print("random float value 0.000 - 0.999 =",b)
+print()
+c = random.uniform(1.5,8.5)
+print("c = ",c)
+print()
+d = random.choice("Python")
+print("random data from specific = ",d)
+print()
+e = random.randrange(10,101,10)
+print("random 10-10 step 10 = ",e)

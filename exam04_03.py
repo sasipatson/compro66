@@ -1,0 +1,10 @@
+ch = input('Enter Charater : ')
+
+print("Charater",ch,"Has ascii Value",ord(ch))
+print("Ascii Value",ord(ch),"Has Charater Value",chr(ord(ch)))
+print()
+num = ord(ch)
+print("Decimal Value : ",num)
+print("Binary Value : ",bin(num))
+print("Octal Value : ",oct(num))
+print("Hexa Value : ",hex(num))

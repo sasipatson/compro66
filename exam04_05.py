@@ -1,0 +1,12 @@
+import math
+num1 = int(input("Enter Integer Number1 : "))
+num2 = int(input("Enter Integer Number2 : "))
+gcdNum = math.gcd(num1,num2)
+lcmNum = math.lcm(num1,num2)
+print()
+print("Integer Number",num1,"And",num2)
+print("Greatest Common Divisor = ",gcdNum)
+print("Least Common Multiple = ",lcmNum)
+print()
+print("Faoterial",num1,"! Is Value",math.factorial(num1))
+print("Faoterial",num2,"! Is Value ",math.factorial(num2))
